@@ -1,0 +1,1 @@
+require 'discriminating_words'
