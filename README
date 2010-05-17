@@ -19,3 +19,7 @@ if you use :with option then you can specify your own set of discriminated words
 class Message < ActiveRecord::Base
   validates_discriminating_words_of :subject, :body, :with => "cholercia, ojejku, ladacznica, skurczybyk"
 end
+
+
+
+Copyright (c) 2010 Irenuesz Skrobis, released under the MIT license
